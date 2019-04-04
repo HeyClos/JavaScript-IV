@@ -35,6 +35,7 @@ class GameObject{
   
 class CharacterStats extends GameObject{
     constructor(attributes){
+    super(attributes);
     this.healthPoints = attributes.healthPoints;
     }
 
@@ -56,6 +57,7 @@ class CharacterStats extends GameObject{
   
 class Humanoid extends CharacterStats{
     constructor(attributes){
+    super(attributes);
     this.team = attributes.team;
     this.weapons = attributes.weapons;
     this.language = attributes.language;
