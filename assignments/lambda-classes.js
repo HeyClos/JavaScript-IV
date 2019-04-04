@@ -45,7 +45,7 @@ class Student extends Person{
       }
     
     sprintChallenge() {
-    return `${student.name} has begun sprint challenge on ${this.subject}`;
+        return `${student.name} has begun sprint challenge on ${this.subject}`;
     }
 }
 
